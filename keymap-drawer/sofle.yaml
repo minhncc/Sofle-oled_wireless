@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: sofle}
 layers:
   default:
-  - ESCAPE
+  - CAPS
   - '1'
   - '2'
   - '3'
@@ -13,7 +13,7 @@ layers:
   - '9'
   - '0'
   - '-'
-  - TAB
+  - ESCAPE
   - Q
   - W
   - E
@@ -25,15 +25,15 @@ layers:
   - O
   - P
   - \
-  - CLCK
+  - TAB
   - {t: A, h: LSHFT}
   - {t: S, h: LCTRL}
-  - {t: D, h: LGUI}
-  - {t: F, h: LALT}
+  - {t: D, h: LEFT ALT}
+  - {t: F, h: LCMD}
   - G
   - H
-  - {t: J, h: RALT}
-  - {t: K, h: RGUI}
+  - {t: J, h: RGUI}
+  - {t: K, h: RIGHT ALT}
   - {t: L, h: RCTRL}
   - {t: ;, h: RSHIFT}
   - ''''
@@ -44,7 +44,7 @@ layers:
   - V
   - B
   - MUTE
-  - ''
+  - MUTE
   - N
   - M
   - ','
@@ -52,17 +52,17 @@ layers:
   - /
   - {t: ENTER, h: RSHFT}
   - LCTRL
-  - LWIN
-  - LALT
+  - LEFT ALT
+  - LGUI
   - lower
   - SPACE
   - BACKSPACE
   - raise
-  - {t: LEFT ARROW, h: RIGHT ALT}
-  - {t: RIGHT ARROW, h: RCTRL}
+  - {t: LEFT ARROW, h: RGUI}
+  - {t: RIGHT ARROW, h: RIGHT ALT}
   - ENTER
   lower:
-  - {t: ▽, type: trans}
+  - ESCAPE
   - F1
   - F2
   - F3
@@ -112,16 +112,16 @@ layers:
   - +
   - '='
   - RSHIFT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LCTRL
+  - LGUI
+  - LEFT ALT
   - {type: held}
   - SPACE
   - DEL
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RIGHT ALT
+  - RGUI
+  - RCTRL
   raise:
   - BT CLR
   - {t: BT, h: '0'}
@@ -148,9 +148,9 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - CAPS
-  - LALT
-  - LCTRL
   - LSHFT
+  - LCTRL
+  - LGUI
   - LALT
   - CLCK
   - PG DN
@@ -159,20 +159,20 @@ layers:
   - RIGHT
   - BACKSPACE
   - DEL
-  - {t: ▽, type: trans}
-  - AC UNDO
-  - AC CUT
-  - AC COPY
-  - AC PASTE
-  - AC REDO
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LSHFT
+  - Gui+Z
+  - Gui+X
+  - Gui+C
+  - Gui+P
+  - Gui+Sft+4
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - RSHFT
   - LCTRL
   - LCMD
   - LALT
