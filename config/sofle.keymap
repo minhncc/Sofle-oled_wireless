@@ -65,11 +65,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp ESCAPE  &kp F1           &kp F2        &kp F3          &kp F4           &kp F5                             &kp F6        &kp F7         &kp F8        &kp F9                &kp F10                &kp F11
-&kp TILDE   &kp EXCLAMATION  &kp AT_SIGN   &kp HASH        &kp DOLLAR       &kp PERCENT                        &kp CARET     &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE
-&kp GRAVE   &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3    &kp NUMBER_4     &kp N5                             &kp NUMBER_6  &kp N7         &kp N8        &kp N9                &kp N0                 &kp MINUS
-&kp LSHFT   &kp PLUS         &kp MINUS     &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PERIOD   &trans       &trans   &kp ASTERISK  &kp LBKT       &kp RBKT      &kp PLUS              &kp EQUAL              &kp RSHIFT
-                             &kp LCTRL     &kp LALT        &kp LGUI         &trans       &kp SPACE    &kp DEL  &trans        &kp RIGHT_ALT  &kp RGUI      &kp RCTRL
+&kp ESCAPE  &kp F1            &kp F2             &kp F3          &kp F4           &kp F5                             &kp F6     &kp F7         &kp F8        &kp F9        &kp F10                &kp F11
+&kp TILDE   &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR       &kp PERCENT                        &kp PLUS   &kp N7         &kp N8        &kp N9        &kp RIGHT_PARENTHESIS  &kp UNDERSCORE
+&kp GRAVE   &kp LSHFT         &kp LCTRL          &kp LALT        &kp LCMD         &kp N5                             &kp MINUS  &kp NUMBER_4   &kp N5        &kp NUMBER_6  &kp PERIOD             &kp MINUS
+&kp LSHFT   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PERIOD   &trans       &trans   &kp N0     &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL              &kp RSHIFT
+                              &kp LCTRL          &kp LALT        &kp LGUI         &trans       &kp SPACE    &kp DEL  &trans     &kp RIGHT_ALT  &kp RGUI      &kp RCTRL
             >;
 
             sensor-bindings =
