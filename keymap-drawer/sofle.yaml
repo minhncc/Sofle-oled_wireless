@@ -60,7 +60,7 @@ layers:
   - raise
   - {t: LEFT ARROW, h: RGUI}
   - {t: RIGHT ARROW, h: RIGHT ALT}
-  - ENTER
+  - {t: ENTER, h: RCTRL}
   lower:
   - ESCAPE
   - F1
@@ -80,7 +80,7 @@ layers:
   - '#'
   - $
   - '%'
-  - +
+  - '-'
   - '7'
   - '8'
   - '9'
@@ -92,7 +92,7 @@ layers:
   - LALT
   - LCMD
   - '5'
-  - '-'
+  - +
   - '4'
   - '5'
   - '6'
@@ -111,7 +111,7 @@ layers:
   - '2'
   - '3'
   - '='
-  - RSHIFT
+  - {t: ENTER, h: RSHIFT}
   - LCTRL
   - LALT
   - LGUI
@@ -119,9 +119,9 @@ layers:
   - SPACE
   - DEL
   - {t: ▽, type: trans}
-  - RIGHT ALT
-  - RGUI
-  - RCTRL
+  - '*'
+  - /
+  - {t: RETURN, h: RCTRL}
   raise:
   - BT CLR
   - {t: BT, h: '0'}
@@ -150,9 +150,9 @@ layers:
   - TAB
   - LSHFT
   - LCTRL
-  - LGUI
   - LALT
-  - CLCK
+  - LCMD
+  - ''
   - PG DN
   - LEFT
   - DOWN
@@ -174,11 +174,11 @@ layers:
   - {t: ▽, type: trans}
   - RSHFT
   - LCTRL
+  - LEFT ALT
   - LCMD
-  - LALT
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - SPACE
+  - BACKSPACE
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
